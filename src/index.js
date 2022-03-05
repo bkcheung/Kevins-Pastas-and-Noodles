@@ -1,5 +1,5 @@
 function print(){
-    console.log('Hello test!')
+    console.log('Hello testoooo!')
 }
 
 print();
