@@ -1,5 +1,3 @@
-function print(){
-    console.log('Hello testoooo!')
-}
+import initPage from './initialize.js';
 
-print();
+initPage();
