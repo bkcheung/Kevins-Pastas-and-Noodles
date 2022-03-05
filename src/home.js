@@ -1,4 +1,4 @@
-export default function initPage(){
+export default function loadHome(){
     const content = document.getElementById('content');
     const title = document.createElement('h1');
     const header = document.createElement('h3');

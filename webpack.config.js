@@ -4,7 +4,9 @@ module.exports = {
   mode: 'development',
   entry: {
       index: './src/index.js',
-      initialize: './src/initialize.js',
+      home: './src/home.js',
+      menu: './src/menu.js',
+      contact: './src/contact.js',
   },
   devServer: {
       static: './dist'
@@ -12,5 +14,13 @@ module.exports = {
   output: {
     filename: '[name].main.js',
     path: path.resolve(__dirname, 'dist'),
+  },
+  module: {
+    rules: [
+      {
+        test: /\.css$/i,
+        use: ['style-loader', 'css-loader'],
+      },
+    ],
   },
 };
