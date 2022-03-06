@@ -19,13 +19,15 @@ header {
 }
 
 button {
-    /* margin: 0px 5px 0px 5px; */
-    padding: 10px;
-    font-size: 1.5em;
+    margin: 0px 10px 0px 10px;
+    padding: 10px 20px 10px 20px;
+    font-size: 1.25em;
     background-color:  rgb(255, 250, 243);
-
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     border: none;
 }
+
 #navMenu {
     display: flex;
     justify-content: center;
@@ -34,5 +36,5 @@ button {
 #content {
     padding: 0px 15px 0px 15px;
     flex-grow: 1;
-    min-height: 87vh;
+    min-height: 100vh;
 }
