@@ -21,11 +21,5 @@ export default function loadMenu(){
     item2.innerHTML = "Zha Jiang Mian";
     desc2.innerHTML = "Beijing \"Fried Sauce\" noodles, inspired by Share Life Shanghai.";
 
-    content.appendChild(title);
-    content.appendChild(item1);
-    content.appendChild(desc1);
-    content.appendChild(pastaImage);
-    content.appendChild(item2);
-    content.appendChild(desc2);
-    content.appendChild(noodleImg);
+    content.append(title, item1, desc1, pastaImage, item2, desc2, noodleImg);
 }
