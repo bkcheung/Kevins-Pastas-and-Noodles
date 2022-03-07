@@ -9,10 +9,10 @@ export default function loadMenu(){
     const item2 = document.createElement('h3');
     const desc2 = document.createElement('p');
 
-    const pastaImage = new Image(500,500);
+    const pastaImage = new Image(350,350);
     pastaImage.src = pasta;
 
-    const noodleImg = new Image(500,500);
+    const noodleImg = new Image(350,350);
     noodleImg.src = noodle;
 
     title.innerHTML = "Menu";
@@ -21,5 +21,5 @@ export default function loadMenu(){
     item2.innerHTML = "Zha Jiang Mian";
     desc2.innerHTML = "Beijing \"Fried Sauce\" noodles, inspired by Share Life Shanghai.";
 
-    content.append(title, item1, desc1, pastaImage, item2, desc2, noodleImg);
+    content.append(title, item2, desc2, noodleImg, item1, desc1, pastaImage);
 }

@@ -6,7 +6,7 @@ export default function loadHome(){
     const header = document.createElement('h3');
     const desc = document.createElement('p');
 
-    const pastaImage = new Image(500,500);
+    const pastaImage = new Image(350,350);
     pastaImage.src = pasta;
 
     title.innerHTML = "Kevin's Pastas and Noodles";
