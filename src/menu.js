@@ -2,7 +2,8 @@ import pasta from './pasta.jpg';
 import noodle from './noodle.jpg';
 
 export default function loadMenu(){
-    const content = document.getElementById('content');
+    const content = document.createElement('div');
+    content.setAttribute('id', 'content');
     const title = document.createElement('h1');
     const item1 = document.createElement('h3');
     const desc1 = document.createElement('p');
@@ -22,4 +23,5 @@ export default function loadMenu(){
     desc2.innerHTML = "Beijing \"Fried Sauce\" noodles, inspired by Share Life Shanghai.";
 
     content.append(title, item2, desc2, noodleImg, item1, desc1, pastaImage);
+    document.body.append(content);
 }

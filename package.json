@@ -1,7 +1,7 @@
 {
-  "name": "restaurant",
+  "name": "Kevin's Pastas and Noodles",
   "version": "1.0.0",
-  "description": "Restaurant page for TOP",
+  "description": "Basic tabbed restaurant page for The Odin Project",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,16 +10,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bkcheung/Restaurant.git"
+    "url": "git+https://github.com/bkcheung/Kevins-Pastas-and-Noodles"
   },
   "author": "Bonnie Cheung",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/bkcheung/Restaurant/issues"
+    "url": "https://github.com/bkcheung/Kevins-Pastas-and-Noodles/issues"
   },
-  "homepage": "https://github.com/bkcheung/Restaurant#readme",
+  "homepage": "https://github.com/bkcheung/Kevins-Pastas-and-Noodles#readme",
   "devDependencies": {
     "css-loader": "^6.7.0",
+    "html-webpack-plugin": "^5.5.0",
     "style-loader": "^3.3.1",
     "webpack": "^5.70.0",
     "webpack-cli": "^4.9.2",

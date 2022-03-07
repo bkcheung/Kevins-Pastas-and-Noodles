@@ -1,5 +1,6 @@
 export default function loadContact(){
-    const content = document.getElementById('content');
+    const content = document.createElement('div');
+    content.setAttribute('id', 'content');
     const title = document.createElement('h1');
     const contact1 = document.createElement('h3');
     const details1 = document.createElement('p');
@@ -15,5 +16,6 @@ export default function loadContact(){
                          "(123) 456-7891 <br/><br/> bonnie@knp.com";
 
     content.append(title, contact1, details1, contact2, details2);
+    document.body.append(content);
     
 }
