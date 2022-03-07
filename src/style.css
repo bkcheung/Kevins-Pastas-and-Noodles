@@ -17,6 +17,7 @@ header, footer{
 
 header {
     padding: 20px 15px 0px 15px;
+    display: flex;
 }
 
 footer {
@@ -29,9 +30,10 @@ img {
 }
 
 button {
+    flex-shrink: 1;
     margin: 0px 10px 0px 10px;
     padding: 10px 20px 10px 20px;
-    font-size: 1.25em;
+    font-size: 1.15em;
     color: rgb(63, 56, 56);
     background-color: rgba(250, 197, 123, 0.742);
     border-top-left-radius: 10px;
