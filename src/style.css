@@ -1,5 +1,6 @@
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(63, 56, 56);
     background-color: rgb(255, 250, 243);
     display: flex;
     flex-flow: column wrap;
@@ -18,17 +19,28 @@ header {
     padding: 15px 15px 0px 15px;
 }
 
+footer {
+    margin-top: 30px;
+}
+
 button {
     margin: 0px 10px 0px 10px;
     padding: 10px 20px 10px 20px;
     font-size: 1.25em;
-    background-color:  rgb(255, 250, 243);
+    color: rgb(63, 56, 56);
+    background-color: rgba(250, 197, 123, 0.742);
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border: none;
+    border-top: 2px solid rgb(106, 105, 105, 0.25);
+    border-right: 2px solid rgb(106, 105, 105, 0.25);
 }
 
-#navMenu {
+button.selected {
+    background-color: rgb(255, 250, 243);
+}
+
+#header {
     display: flex;
     justify-content: left;
 }
