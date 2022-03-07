@@ -4,7 +4,7 @@ body {
     background-color: rgb(255, 250, 243);
     display: flex;
     flex-flow: column wrap;
-    align-items: left;
+    align-items: center;
     margin: 0;
 }
 header, footer{
@@ -21,6 +21,11 @@ header {
 
 footer {
     margin-top: 30px;
+}
+
+img {
+    width: 100%;
+    max-width: 500px;
 }
 
 button {
@@ -42,7 +47,7 @@ button.selected {
 
 #header {
     display: flex;
-    justify-content: left;
+    justify-content: center;
 }
 
 #content {
@@ -50,3 +55,4 @@ button.selected {
     flex-grow: 1;
     min-height: 100vh;
 }
+

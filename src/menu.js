@@ -9,10 +9,10 @@ export default function loadMenu(){
     const item2 = document.createElement('h3');
     const desc2 = document.createElement('p');
 
-    const pastaImage = new Image(350,350);
+    const pastaImage = new Image();
     pastaImage.src = pasta;
 
-    const noodleImg = new Image(350,350);
+    const noodleImg = new Image();
     noodleImg.src = noodle;
 
     title.innerHTML = "Menu";
